@@ -24,68 +24,71 @@
    </property>
    <layout class="QFormLayout" name="formLayout">
     <item row="0" column="0">
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="label_variety">
       <property name="text">
-       <string>Название сорта</string>
+       <string>Variety name</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="line_edit_variety"/>
     </item>
     <item row="1" column="0">
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="label_roasting">
       <property name="text">
-       <string>Степень обжарки</string>
+       <string>Degree of roasting</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+     <widget class="QLineEdit" name="line_edit_roasting"/>
     </item>
     <item row="2" column="0">
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="label_ground">
       <property name="text">
-       <string>Молотый/в зернах</string>
+       <string>Ground/in grains</string>
       </property>
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="line_edit_ground"/>
     </item>
     <item row="3" column="0">
-     <widget class="QLabel" name="label_5">
+     <widget class="QLabel" name="label_flavor">
       <property name="text">
-       <string>Описание вкуса</string>
+       <string>Flavor description</string>
       </property>
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_5"/>
+     <widget class="QLineEdit" name="line_edit_flavor"/>
     </item>
     <item row="4" column="0">
-     <widget class="QLabel" name="label_6">
+     <widget class="QLabel" name="label_price">
       <property name="text">
-       <string>Цена</string>
+       <string>Price</string>
       </property>
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QLineEdit" name="lineEdit_6"/>
+     <widget class="QLineEdit" name="line_edit_price"/>
     </item>
     <item row="5" column="0">
-     <widget class="QLabel" name="label_7">
+     <widget class="QLabel" name="label_volume">
       <property name="text">
-       <string>Объем упаковки</string>
+       <string>Package volume</string>
       </property>
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QLineEdit" name="lineEdit_7"/>
+     <widget class="QLineEdit" name="line_edit_volume"/>
     </item>
    </layout>
   </widget>
   <widget class="QPushButton" name="saveButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>306</x>
@@ -96,6 +99,9 @@
    </property>
    <property name="text">
     <string>Окей</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="cancelButton">
@@ -109,6 +115,9 @@
    </property>
    <property name="text">
     <string>Отмена</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
